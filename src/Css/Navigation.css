@@ -1,0 +1,32 @@
+.navigation-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+
+.logo-image {
+  width: 15rem;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+.nav-btn {
+  background-color: var(--color-primary);
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #333;
+  transition: 0.35s;
+}
+.nav-btn:hover {
+  background-color: var(--color-primary-darker);
+}

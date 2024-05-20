@@ -1,0 +1,19 @@
+.feature-wrapper {
+  border-top: 1px solid #ddd;
+  margin-top: 10rem;
+}
+.feature-head-wrapper {
+  margin-top: 12rem;
+  margin-left: 30rem;
+}
+.feature-head-1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+.feature-head-2 {
+  font-size: 3.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+}

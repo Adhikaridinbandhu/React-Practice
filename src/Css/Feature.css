@@ -1,6 +1,7 @@
 .feature-wrapper {
   border-top: 1px solid #ddd;
   margin-top: 10rem;
+  border-bottom: 1px solid #ddd;
 }
 .feature-head-wrapper {
   margin-top: 12rem;
@@ -16,4 +17,45 @@
   font-size: 3.8rem;
   font-weight: 500;
   line-height: 1.4;
+}
+.digital {
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  margin-right: 8rem;
+  margin-bottom: 5rem;
+}
+.digital-image {
+  width: 45%;
+}
+.feature-body-head {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+.feature-body-para-1 {
+  line-height: 1.8;
+  font-size: 1.6rem;
+  margin-right: 8rem;
+}
+.feature-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 1px;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  color: var(--color-primary);
+  background-color: var(--color-primary-opacity);
+}
+.feature-body-para-2 {
+  line-height: 1.8;
+  font-size: 1.6rem;
+}
+
+.feature-body-2 {
+  margin-left: 8rem;
 }
